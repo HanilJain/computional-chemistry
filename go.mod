@@ -1,4 +1,4 @@
-module 
+module github.com/HanilJain/computional-chemistry
 
 go 1.21.5
 
