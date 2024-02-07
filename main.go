@@ -65,16 +65,14 @@ func scatter3DDataItem() *charts.Scatter3D {
     return scatter3d
 }
 
-type Scatter3dExamples struct{}
-
-func (Scatter3dExamples) Examples() {
+func main() {
     page := components.NewPage()
     page.AddCharts(
         scatter3DBase(),
         scatter3DDataItem(),
     )
 
-    f, err := os.Create("examples/html/scatter3d.html")
+    f, err := os.Create("C:/Users/Asus/NULLVOID/computional chemistry/scatter3d.html")
     if err != nil {
         panic(err)
     }
